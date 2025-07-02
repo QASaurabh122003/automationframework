@@ -1,0 +1,18 @@
+20:30:13.376 INFO  base.WebDriverFactory - OS Name from system property :: mac
+20:30:13.384 INFO  base.WebDriverFactory - Driver Binary :: /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//drivers//chromedriver
+20:30:42.181 INFO  utilities.Util - Waiting 0.02 seconds :: Clicked on ::Login
+20:30:43.760 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (20df56d52fb521547d28676dbd009956)] -> id: email]Usernamefieldwith data:: test@email.com
+20:30:44.587 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (20df56d52fb521547d28676dbd009956)] -> id: login-password]Passwordfieldwith data:: abcabc
+20:30:46.049 INFO  base.CustomerDriver - Clicked on ::LoginButton
+20:30:46.632 INFO  base.CheckPoint - Clearing the HashMap
+20:30:56.641 INFO  utilities.Util - Waiting 0.01 seconds :: Clicked on ::All Courses Link
+20:30:57.157 INFO  base.CustomerDriver - Clicked on :: searchbar using Actions class
+20:30:57.449 ERROR base.CustomerDriver - Cannot send keys using Actions on element:: Search Course Field [[ChromeDriver: chrome on MAC (20df56d52fb521547d28676dbd009956)] -> id: search] with data:: rest api
+20:30:58.413 INFO  base.CustomerDriver - Clicked on ::SearchIcon
+20:30:58.460 INFO  base.CustomerDriver - Elements list found with :  xpath=>//div[@class='col-lg-4 col-md-4 col-sm-6 col-xs-12']
+20:30:58.466 INFO  base.CheckPoint - Clearing the HashMap
+20:31:03.286 INFO  utilities.Util - Waiting 0.01 seconds :: Clicked on ::All Courses Link
+20:31:03.991 INFO  base.CustomerDriver - Clicked on :: searchbar using Actions class
+20:31:04.110 ERROR base.CustomerDriver - Cannot send keys using Actions on element:: Search Course Field [[ChromeDriver: chrome on MAC (20df56d52fb521547d28676dbd009956)] -> id: search] with data:: javascript
+20:31:04.475 INFO  base.CustomerDriver - Clicked on ::SearchIcon
+20:31:04.665 INFO  base.CustomerDriver - Elements list found with :  xpath=>//div[@class='col-lg-4 col-md-4 col-sm-6 col-xs-12']

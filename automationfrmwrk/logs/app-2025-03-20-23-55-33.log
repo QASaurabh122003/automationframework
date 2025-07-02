@@ -1,0 +1,18 @@
+23:55:33.634 INFO  base.WebDriverFactory - OS Name from system property :: mac
+23:55:33.640 INFO  base.WebDriverFactory - Driver Binary :: /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//drivers//chromedriver
+23:56:03.399 INFO  utilities.Util - Waiting 0.02 seconds :: Clicked on ::Login
+23:56:05.085 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (276e2eb99d0ef2dec30bfed89425ca2b)] -> id: email]Usernamefieldwith data:: test@email.com
+23:56:06.157 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (276e2eb99d0ef2dec30bfed89425ca2b)] -> id: login-password]Passwordfieldwith data:: abcabc
+23:56:07.764 INFO  base.CustomerDriver - Clicked on ::LoginButton
+23:56:08.344 INFO  base.CheckPoint - Clearing the HashMap
+23:56:18.610 INFO  utilities.Util - Waiting 0.01 seconds :: Clicked on ::All Courses Link
+23:56:19.077 INFO  base.CustomerDriver - Clicked on :: searchbar using Actions class
+23:56:19.624 INFO  base.CustomerDriver - Actions sendKeys on element:: [[ChromeDriver: chrome on MAC (276e2eb99d0ef2dec30bfed89425ca2b)] -> id: search] Coursename with data:: rest api
+23:56:20.598 INFO  base.CustomerDriver - Clicked on :: SearchIcon using Actions class
+23:56:20.989 INFO  base.CustomerDriver - Elements list found with :  xpath=>//div[@class='col-lg-4 col-md-4 col-sm-6 col-xs-12']
+23:56:21.004 INFO  base.CheckPoint - Clearing the HashMap
+23:56:25.721 INFO  utilities.Util - Waiting 0.01 seconds :: Clicked on ::All Courses Link
+23:56:26.496 INFO  base.CustomerDriver - Clicked on :: searchbar using Actions class
+23:56:26.799 INFO  base.CustomerDriver - Actions sendKeys on element:: [[ChromeDriver: chrome on MAC (276e2eb99d0ef2dec30bfed89425ca2b)] -> id: search] Coursename with data:: javascript
+23:56:27.238 INFO  base.CustomerDriver - Clicked on :: SearchIcon using Actions class
+23:56:27.369 INFO  base.CustomerDriver - Elements list found with :  xpath=>//div[@class='col-lg-4 col-md-4 col-sm-6 col-xs-12']

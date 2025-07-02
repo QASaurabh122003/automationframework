@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <!-- Define base path for logs -->
+        <Property name="basePath">./logs</Property>
+        <!-- Use a unique identifier for each test run -->
+        <Property name="logFileSuffix">${date:yyyy-MM-dd-HH-mm-ss}</Property>
+    </Properties>
+
+    <Appenders>
+        <!-- Rolling file appender with unique name per test run -->
+        <RollingFile name="File" fileName="${basePath}/app-${logFileSuffix}.log"
+                     filePattern="${basePath}/app-%d{yyyy-MM-dd-HH}.log.gz">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %c{2} - %msg%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="100 KB"/>
+            </Policies>
+        </RollingFile>
+
+        <!-- Console output for live logs -->
+        <Console name="Console">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %c{1} - %msg%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <Root level="trace">
+            <AppenderRef ref="File"/>
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+</Configuration>

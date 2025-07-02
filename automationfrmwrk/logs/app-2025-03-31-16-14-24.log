@@ -1,0 +1,16 @@
+16:14:24.362 INFO  utilities.Util - Date and Time :: 03_31_2025 16_14_24
+16:14:24.364 INFO  utilities.ExtentManager - *********** Report Path ***********
+16:14:24.364 INFO  utilities.ExtentManager - /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//reports//AutomationReport_03_31_2025 16_14_24.html
+16:14:24.364 INFO  utilities.ExtentManager - *********** Report Path ***********
+16:14:24.490 INFO  base.TestListeners - onStart -> Test Tag Name: Application Test
+16:14:24.490 INFO  base.TestListeners - These methods will be executed in this <test> tag
+16:14:24.490 INFO  base.TestListeners - verifySearchCourse
+16:14:24.490 INFO  base.TestListeners - signWithValidCredentials
+16:14:24.509 INFO  base.WebDriverFactory - OS Name from system property :: mac
+16:14:24.511 INFO  base.WebDriverFactory - Driver Binary :: /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//drivers//chromedriver
+16:14:31.593 INFO  utilities.Util - Waiting 0.02 seconds :: Clicked on ::Login
+16:14:31.781 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (b9df751c12d04fedb78a173ae281ee8f)] -> id: email]Usernamefieldwith data:: test@email.com
+16:14:31.829 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (b9df751c12d04fedb78a173ae281ee8f)] -> id: login-password]Passwordfieldwith data:: abcabc
+16:14:31.875 INFO  base.CustomerDriver - Clicked on ::LoginButton
+16:14:32.096 INFO  base.CheckPoint - Clearing the HashMap
+16:14:36.263 INFO  utilities.Util - Waiting 0.01 seconds :: Clicked on ::All Courses Link

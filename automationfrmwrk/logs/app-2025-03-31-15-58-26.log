@@ -1,0 +1,29 @@
+16:00:20.002 INFO  base.CustomerDriver - Elements list not found with :  xpath=>//div[@class='col-lg-4 col-md-4 col-sm-6 col-xs-12']
+16:00:20.017 INFO  base.CheckPoint - Clearing the HashMap
+16:00:28.504 INFO  utilities.Util - Waiting 0.01 seconds :: Clicked on ::All Courses Link
+16:00:28.653 INFO  base.CustomerDriver - Clicked on :: searchbar using Actions class
+16:00:28.795 INFO  base.CustomerDriver - Actions sendKeys on element:: [[ChromeDriver: chrome on MAC (245ccfd052ca2c3020601f05bc2a5646)] -> id: search] Coursename with data:: javascript
+16:00:28.924 INFO  base.CustomerDriver - Clicked on :: SearchIcon using Actions class
+16:00:28.937 INFO  base.CustomerDriver - Elements list found with :  xpath=>//div[@class='col-lg-4 col-md-4 col-sm-6 col-xs-12']
+16:00:29.179 INFO  base.WebDriverFactory - OS Name from system property :: mac
+16:00:29.179 INFO  base.WebDriverFactory - Driver Binary :: /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//drivers//chromedriver
+16:00:36.750 INFO  utilities.Util - Waiting 0.02 seconds :: Clicked on ::Login
+16:00:36.773 INFO  base.CheckPoint - Clearing the HashMap
+16:00:36.893 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (ed51de6b13c6df1133b575355dae46d2)] -> id: email]Usernamefieldwith data:: test@email.com
+16:00:36.943 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (ed51de6b13c6df1133b575355dae46d2)] -> id: login-password]Passwordfieldwith data:: abcabc
+16:00:36.990 INFO  base.CustomerDriver - Clicked on ::LoginButton
+16:00:36.998 INFO  base.CustomerDriver - Getting Text on element :: All Courses Link
+16:00:37.006 INFO  base.CustomerDriver -  The text is : ALL COURSES
+16:00:37.006 ERROR utilities.Util - Actual Text From Web Application UI   --> : ALL COURSES
+16:00:37.006 ERROR utilities.Util - Expected Text From Web Application UI --> : All Coursessss
+16:00:37.006 ERROR utilities.Util - ### Verification DOES NOT Contains !!!
+16:00:37.006 INFO  base.CheckPoint - test01.HeaderVerification:->FAIL
+16:00:40.172 INFO  base.CustomerDriver - Elements list found with :  id=>dropdownMenu1
+16:00:40.172 INFO  base.CheckPoint - test01:->login verification:->PASS
+16:00:40.172 INFO  base.CheckPoint - Test method Fail
+16:00:40.179 INFO  base.CustomerDriver - Elements list found with :  id=>dropdownMenu1
+16:00:40.221 INFO  utilities.Util - Waiting 0.01 seconds :: Clicked on ::Account Dropdown
+16:00:40.236 INFO  base.CustomerDriver - Waiting for max:: 10 seconds for element to be available
+16:00:40.270 INFO  base.CustomerDriver - Element appeared on the web page
+16:00:41.175 INFO  utilities.Util - Waiting 0.01 seconds :: Clicked on ::LogoutLink
+16:00:42.078 INFO  utilities.Util - Waiting 0.02 seconds :: Clicked on ::Login

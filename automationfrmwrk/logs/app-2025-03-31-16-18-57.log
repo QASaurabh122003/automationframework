@@ -1,0 +1,18 @@
+16:18:57.323 INFO  utilities.Util - Date and Time :: 03_31_2025 16_18_57
+16:18:57.326 INFO  utilities.ExtentManager - *********** Report Path ***********
+16:18:57.326 INFO  utilities.ExtentManager - /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//reports//AutomationReport_03_31_2025 16_18_57.html
+16:18:57.326 INFO  utilities.ExtentManager - *********** Report Path ***********
+16:18:57.463 INFO  base.TestListeners - onStart -> Test Tag Name: Application Test
+16:18:57.464 INFO  base.TestListeners - These methods will be executed in this <test> tag
+16:18:57.464 INFO  base.TestListeners - verifySearchCourse
+16:18:57.464 INFO  base.TestListeners - signWithValidCredentials
+16:18:57.477 INFO  base.WebDriverFactory - OS Name from system property :: mac
+16:18:57.478 INFO  base.WebDriverFactory - Driver Binary :: /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//drivers//chromedriver
+16:19:05.542 INFO  utilities.Util - Waiting 0.02 seconds :: Clicked on ::Login
+16:19:05.943 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (a287371d018cd16aaa3039668830e52b)] -> id: email]Usernamefieldwith data:: test@email.com
+16:19:05.990 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (a287371d018cd16aaa3039668830e52b)] -> id: login-password]Passwordfieldwith data:: abcabc
+16:19:06.034 INFO  base.CustomerDriver - Clicked on ::LoginButton
+16:19:06.046 INFO  base.CheckPoint - Clearing the HashMap
+16:19:10.299 INFO  utilities.Util - Waiting 0.01 seconds :: Clicked on ::All Courses Link
+16:19:30.408 ERROR base.CustomerDriver - Element not found with locatorid=>search
+16:19:30.412 ERROR base.CustomerDriver - Cannot Click on :: searchbar - Exception: Must provide a location for a move action.

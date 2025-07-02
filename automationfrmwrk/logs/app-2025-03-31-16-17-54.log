@@ -1,0 +1,20 @@
+16:17:54.138 INFO  utilities.Util - Date and Time :: 03_31_2025 16_17_54
+16:17:54.141 INFO  utilities.ExtentManager - *********** Report Path ***********
+16:17:54.141 INFO  utilities.ExtentManager - /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//reports//AutomationReport_03_31_2025 16_17_54.html
+16:17:54.141 INFO  utilities.ExtentManager - *********** Report Path ***********
+16:17:54.266 INFO  base.TestListeners - onStart -> Test Tag Name: Application Test
+16:17:54.266 INFO  base.TestListeners - These methods will be executed in this <test> tag
+16:17:54.266 INFO  base.TestListeners - verifySearchCourse
+16:17:54.266 INFO  base.TestListeners - signWithValidCredentials
+16:17:54.277 INFO  base.WebDriverFactory - OS Name from system property :: mac
+16:17:54.279 INFO  base.WebDriverFactory - Driver Binary :: /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//drivers//chromedriver
+16:18:02.306 INFO  utilities.Util - Waiting 0.02 seconds :: Clicked on ::Login
+16:18:02.485 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (6a53d5a5843a180a7e109c3abab9f1e9)] -> id: email]Usernamefieldwith data:: test@email.com
+16:18:02.533 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (6a53d5a5843a180a7e109c3abab9f1e9)] -> id: login-password]Passwordfieldwith data:: abcabc
+16:18:02.577 INFO  base.CustomerDriver - Clicked on ::LoginButton
+16:18:02.796 INFO  base.CheckPoint - Clearing the HashMap
+16:18:06.997 INFO  utilities.Util - Waiting 0.01 seconds :: Clicked on ::All Courses Link
+16:18:27.085 ERROR base.CustomerDriver - Element not found with locatorid=>search
+16:18:27.089 ERROR base.CustomerDriver - Cannot Click on :: searchbar - Exception: Must provide a location for a move action.
+16:18:47.143 ERROR base.CustomerDriver - Element not found with locatorid=>search
+16:18:47.145 ERROR base.CustomerDriver - Element not found for locator: id=>search

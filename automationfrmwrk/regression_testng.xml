@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+    <listeners>
+        <listener class-name="com.automationfrmwrk.testclass.base.TestListeners"/>
+    </listeners>
+    <test name="Application Test" preserve-order="true">
+        <classes>
+           <class name="com.automationfrmwrk.testclass.AllCourcesTest"></class>
+           <class name="com.automationfrmwrk.testclass.LoginTest"></class>
+        </classes>
+    </test>
+</suite>

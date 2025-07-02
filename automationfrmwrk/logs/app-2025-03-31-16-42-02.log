@@ -1,0 +1,15 @@
+16:42:02.886 INFO  utilities.Util - Date and Time :: 03_31_2025 16_42_02
+16:42:02.889 INFO  utilities.ExtentManager - *********** Report Path ***********
+16:42:02.889 INFO  utilities.ExtentManager - /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//reports//AutomationReport_03_31_2025 16_42_02.html
+16:42:02.889 INFO  utilities.ExtentManager - *********** Report Path ***********
+16:42:02.986 INFO  base.WebDriverFactory - OS Name from system property :: mac
+16:42:02.987 INFO  base.WebDriverFactory - Driver Binary :: /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//drivers//chromedriver
+16:42:10.827 INFO  utilities.Util - Waiting 0.02 seconds :: Clicked on ::Login
+16:42:11.018 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (bc5c055c5c1bc491d014e05ebc4210a4)] -> id: email]Usernamefieldwith data:: test@email.com
+16:42:11.067 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (bc5c055c5c1bc491d014e05ebc4210a4)] -> id: login-password]Passwordfieldwith data:: abcabc
+16:42:11.115 INFO  utilities.Util - Waiting 0.0 seconds :: Clicked on ::LoginButton
+16:42:11.350 INFO  base.CheckPoint - Clearing the HashMap
+16:42:14.581 INFO  base.CustomerDriver - Elements list found with :  id=>dropdownMenu1
+16:42:15.518 INFO  base.CustomerDriver - Clicked on ::All Courses Link
+16:42:25.597 ERROR base.CustomerDriver - Element not found with locatorid=>search
+16:42:25.599 ERROR base.CustomerDriver - Cannot Click on :: searchbar - Exception: Must provide a location for a move action.

@@ -1,0 +1,10 @@
+11:41:29.520 INFO  utilities.Util - Date and Time :: 03_28_2025 11_41_29
+11:41:29.528 INFO  utilities.ExtentManager - *********** Report Path ***********
+11:41:29.528 INFO  utilities.ExtentManager - /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//reports//AutomationReport_03_28_2025 11_41_29.html
+11:41:29.528 INFO  utilities.ExtentManager - *********** Report Path ***********
+11:41:30.041 INFO  base.TestListeners - onStart -> Test Tag Name: Application Test
+11:41:30.041 INFO  base.TestListeners - These methods will be executed in this <test> tag
+11:41:30.041 INFO  base.TestListeners - verifySearchCourse
+11:41:30.041 INFO  base.TestListeners - signWithValidCredentials
+11:41:30.080 INFO  base.WebDriverFactory - OS Name from system property :: mac
+11:41:30.080 INFO  base.WebDriverFactory - Driver Binary :: /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//drivers//chromedriver

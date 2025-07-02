@@ -1,0 +1,47 @@
+17:28:44.459 INFO  utilities.Util - Date and Time :: 03_31_2025 17_28_44
+17:28:44.464 INFO  utilities.ExtentManager - *********** Report Path ***********
+17:28:44.464 INFO  utilities.ExtentManager - /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//reports//AutomationReport_03_31_2025 17_28_44.html
+17:28:44.465 INFO  utilities.ExtentManager - *********** Report Path ***********
+17:28:44.755 INFO  base.WebDriverFactory - OS Name from system property :: mac
+17:28:44.755 INFO  base.WebDriverFactory - Driver Binary :: /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//drivers//chromedriver
+17:29:15.734 INFO  utilities.Util - Waiting 0.02 seconds :: Clicked on ::Login
+17:29:17.807 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (806fc7c579fc062d5b9f1ada9aa67727)] -> id: email]Usernamefieldwith data:: test@email.com
+17:29:18.590 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (806fc7c579fc062d5b9f1ada9aa67727)] -> id: login-password]Passwordfieldwith data:: abcabc
+17:29:20.313 INFO  utilities.Util - Waiting 0.0 seconds :: Clicked on ::LoginButton
+17:29:21.102 INFO  base.CheckPoint - Clearing the HashMap
+17:29:24.963 INFO  base.CustomerDriver - Elements list found with :  id=>dropdownMenu1
+17:29:33.216 INFO  base.CustomerDriver - Clicked on ::All Courses Link
+17:29:33.791 INFO  base.CustomerDriver - Clicked on :: searchbar using Actions class
+17:29:34.401 INFO  base.CustomerDriver - Actions sendKeys on element:: [[ChromeDriver: chrome on MAC (806fc7c579fc062d5b9f1ada9aa67727)] -> id: search] Coursename with data:: rest api
+17:29:35.238 INFO  base.CustomerDriver - Clicked on :: SearchIcon using Actions class
+17:29:35.354 INFO  base.CustomerDriver - Elements list found with :  xpath=>//div[@class='col-lg-4 col-md-4 col-sm-6 col-xs-12']
+17:29:35.367 INFO  base.CheckPoint - Clearing the HashMap
+17:29:35.397 INFO  base.CustomerDriver - Elements list found with :  id=>dropdownMenu1
+17:29:39.215 INFO  base.CustomerDriver - Clicked on ::All Courses Link
+17:29:39.791 INFO  base.CustomerDriver - Clicked on :: searchbar using Actions class
+17:29:40.039 INFO  base.CustomerDriver - Actions sendKeys on element:: [[ChromeDriver: chrome on MAC (806fc7c579fc062d5b9f1ada9aa67727)] -> id: search] Coursename with data:: javascript
+17:29:40.649 INFO  base.CustomerDriver - Clicked on :: SearchIcon using Actions class
+17:29:40.795 INFO  base.CustomerDriver - Elements list found with :  xpath=>//div[@class='col-lg-4 col-md-4 col-sm-6 col-xs-12']
+17:29:41.030 INFO  base.WebDriverFactory - OS Name from system property :: mac
+17:29:41.030 INFO  base.WebDriverFactory - Driver Binary :: /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//drivers//chromedriver
+17:30:09.311 INFO  utilities.Util - Waiting 0.02 seconds :: Clicked on ::Login
+17:30:09.348 INFO  base.CheckPoint - Clearing the HashMap
+17:30:10.881 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (2020e7328d6202230f34a33fdb32f4b9)] -> id: email]Usernamefieldwith data:: test@email.com
+17:30:11.798 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (2020e7328d6202230f34a33fdb32f4b9)] -> id: login-password]Passwordfieldwith data:: abcabc
+17:30:13.533 INFO  utilities.Util - Waiting 0.0 seconds :: Clicked on ::LoginButton
+17:30:13.556 INFO  base.CustomerDriver - Getting Text on element :: All Courses Link
+17:30:13.659 INFO  base.CustomerDriver -  The text is : ALL COURSES
+17:30:13.659 INFO  utilities.Util - Actual Text From Web Application UI   --> : ALL COURSES
+17:30:13.659 INFO  utilities.Util - Expected Text From Web Application UI --> : All Courses
+17:30:13.659 INFO  utilities.Util - ### Verification Contains !!!
+17:30:13.659 INFO  base.CheckPoint - test01.HeaderVerification:->PASS
+17:30:17.656 INFO  base.CustomerDriver - Elements list found with :  id=>dropdownMenu1
+17:30:17.656 INFO  base.CheckPoint - test01:->login verification:->PASS
+17:30:17.657 INFO  base.CheckPoint - Test method Pass
+17:30:17.657 INFO  base.CheckPoint - Test method Pass
+17:30:17.712 INFO  base.CustomerDriver - Elements list found with :  id=>dropdownMenu1
+17:30:18.748 INFO  base.CustomerDriver - Clicked on ::Account Dropdown
+17:30:18.755 INFO  base.CustomerDriver - Waiting for max:: 10 seconds for element to be available
+17:30:18.939 INFO  base.CustomerDriver - Element appeared on the web page
+17:30:20.327 INFO  base.CustomerDriver - Clicked on ::LogoutLink
+17:30:23.455 INFO  utilities.Util - Waiting 0.02 seconds :: Clicked on ::Login

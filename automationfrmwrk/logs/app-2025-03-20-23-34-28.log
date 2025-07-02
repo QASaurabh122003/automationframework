@@ -1,0 +1,18 @@
+23:34:28.929 INFO  base.WebDriverFactory - OS Name from system property :: mac
+23:34:28.936 INFO  base.WebDriverFactory - Driver Binary :: /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//drivers//chromedriver
+23:34:59.627 INFO  utilities.Util - Waiting 0.02 seconds :: Clicked on ::Login
+23:35:01.334 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (e099a469511c3728bfc0f845e7541fe0)] -> id: email]Usernamefieldwith data:: test@email.com
+23:35:02.262 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (e099a469511c3728bfc0f845e7541fe0)] -> id: login-password]Passwordfieldwith data:: abcabc
+23:35:04.054 INFO  base.CustomerDriver - Clicked on ::LoginButton
+23:35:04.683 INFO  base.CheckPoint - Clearing the HashMap
+23:35:16.065 INFO  utilities.Util - Waiting 0.01 seconds :: Clicked on ::All Courses Link
+23:35:16.631 INFO  base.CustomerDriver - Clicked on :: searchbar using Actions class
+23:35:17.474 INFO  base.CustomerDriver - Actions sendKeys on element:: [[ChromeDriver: chrome on MAC (e099a469511c3728bfc0f845e7541fe0)] -> id: search] Coursename with data:: rest api
+23:35:18.616 INFO  base.CustomerDriver - Clicked on ::SearchIcon
+23:35:19.135 INFO  base.CustomerDriver - Elements list found with :  xpath=>//div[@class='col-lg-4 col-md-4 col-sm-6 col-xs-12']
+23:35:19.142 INFO  base.CheckPoint - Clearing the HashMap
+23:35:24.789 INFO  utilities.Util - Waiting 0.01 seconds :: Clicked on ::All Courses Link
+23:35:25.260 INFO  base.CustomerDriver - Clicked on :: searchbar using Actions class
+23:35:25.515 INFO  base.CustomerDriver - Actions sendKeys on element:: [[ChromeDriver: chrome on MAC (e099a469511c3728bfc0f845e7541fe0)] -> id: search] Coursename with data:: javascript
+23:35:26.033 INFO  base.CustomerDriver - Clicked on ::SearchIcon
+23:35:26.243 INFO  base.CustomerDriver - Elements list found with :  xpath=>//div[@class='col-lg-4 col-md-4 col-sm-6 col-xs-12']

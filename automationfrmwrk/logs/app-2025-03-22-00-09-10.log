@@ -1,0 +1,49 @@
+00:09:10.712 INFO  utilities.Util - Date and Time :: 03_22_2025 00_09_10
+00:09:10.724 INFO  utilities.ExtentManager - *********** Report Path ***********
+00:09:10.724 INFO  utilities.ExtentManager - /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//reports//AutomationReport_03_22_2025 00_09_10.html
+00:09:10.724 INFO  utilities.ExtentManager - *********** Report Path ***********
+00:09:11.209 INFO  base.TestListeners - onStart -> Test Tag Name: Application Test
+00:09:11.210 INFO  base.TestListeners - These methods will be executed in this <test> tag
+00:09:11.210 INFO  base.TestListeners - verifySearchCourse
+00:09:11.210 INFO  base.TestListeners - signWithValidCredentials
+00:09:11.252 INFO  base.WebDriverFactory - OS Name from system property :: mac
+00:09:11.253 INFO  base.WebDriverFactory - Driver Binary :: /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//drivers//chromedriver
+00:10:00.228 INFO  utilities.Util - Waiting 0.02 seconds :: Clicked on ::Login
+00:10:01.730 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (1d67bd9da48f45fc101da540672540b7)] -> id: email]Usernamefieldwith data:: test@email.com
+00:10:02.463 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (1d67bd9da48f45fc101da540672540b7)] -> id: login-password]Passwordfieldwith data:: abcabc
+00:10:03.761 INFO  base.CustomerDriver - Clicked on ::LoginButton
+00:10:04.316 INFO  base.CheckPoint - Clearing the HashMap
+00:10:14.342 INFO  utilities.Util - Waiting 0.01 seconds :: Clicked on ::All Courses Link
+00:10:14.926 INFO  base.CustomerDriver - Clicked on :: searchbar using Actions class
+00:10:15.416 INFO  base.CustomerDriver - Actions sendKeys on element:: [[ChromeDriver: chrome on MAC (1d67bd9da48f45fc101da540672540b7)] -> id: search] Coursename with data:: rest api
+00:10:15.926 INFO  base.CustomerDriver - Clicked on :: SearchIcon using Actions class
+00:10:15.959 INFO  base.CustomerDriver - Elements list found with :  xpath=>//div[@class='col-lg-4 col-md-4 col-sm-6 col-xs-12']
+00:10:15.964 INFO  base.TestListeners - OnTestSuccess->Test Method Name :verifySearchCourse
+00:10:15.974 INFO  base.CheckPoint - Clearing the HashMap
+00:10:19.870 INFO  utilities.Util - Waiting 0.01 seconds :: Clicked on ::All Courses Link
+00:10:20.301 INFO  base.CustomerDriver - Clicked on :: searchbar using Actions class
+00:10:20.651 INFO  base.CustomerDriver - Actions sendKeys on element:: [[ChromeDriver: chrome on MAC (1d67bd9da48f45fc101da540672540b7)] -> id: search] Coursename with data:: javascript
+00:10:21.055 INFO  base.CustomerDriver - Clicked on :: SearchIcon using Actions class
+00:10:21.162 INFO  base.CustomerDriver - Elements list found with :  xpath=>//div[@class='col-lg-4 col-md-4 col-sm-6 col-xs-12']
+00:10:21.165 INFO  base.TestListeners - OnTestSuccess->Test Method Name :verifySearchCourse
+00:10:21.346 INFO  base.WebDriverFactory - OS Name from system property :: mac
+00:10:21.346 INFO  base.WebDriverFactory - Driver Binary :: /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//drivers//chromedriver
+00:10:41.633 INFO  utilities.Util - Waiting 0.02 seconds :: Clicked on ::Login
+00:10:41.655 INFO  base.CheckPoint - Clearing the HashMap
+00:10:42.906 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (301a6bd8a4b0cf597bd3697b3e0c6db3)] -> id: email]Usernamefieldwith data:: test@email.com
+00:10:43.530 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (301a6bd8a4b0cf597bd3697b3e0c6db3)] -> id: login-password]Passwordfieldwith data:: abcabc
+00:10:44.821 INFO  base.CustomerDriver - Clicked on ::LoginButton
+00:10:44.839 INFO  base.CustomerDriver - Getting Text on element :: All Courses Link
+00:10:44.918 INFO  base.CustomerDriver -  The text is : ALL COURSES
+00:10:44.918 ERROR utilities.Util - Actual Text From Web Application UI   --> : ALL COURSES
+00:10:44.918 ERROR utilities.Util - Expected Text From Web Application UI --> : All Coursessss
+00:10:44.918 ERROR utilities.Util - ### Verification DOES NOT Contains !!!
+00:10:44.919 INFO  base.CheckPoint - test01.HeaderVerification:->FAIL
+00:10:47.626 INFO  base.CustomerDriver - Elements list found with :  id=>dropdownMenu1
+00:10:47.626 INFO  base.CheckPoint - test01:->login verification:->PASS
+00:10:47.627 INFO  base.CheckPoint - Test method Fail
+00:10:47.637 INFO  base.TestListeners - onTestFailure -> Test Method Name: signWithValidCredentials
+00:10:47.639 INFO  base.WebDriverFactory - OS Name from system property :: mac
+00:10:47.641 INFO  base.TestListeners - onTestFailure -> Test Method Name: signWithValidCredentials
+00:10:47.641 INFO  base.WebDriverFactory - OS Name from system property :: mac
+00:10:47.813 INFO  base.TestListeners - OnFinish -> Test Tag Name Application Test

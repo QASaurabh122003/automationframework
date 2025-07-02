@@ -1,0 +1,18 @@
+20:03:32.551 INFO  base.WebDriverFactory - OS Name from system property :: mac
+20:03:32.557 INFO  base.WebDriverFactory - Driver Binary :: /Users/saurabh16.pandey/Library/CloudStorage/OneDrive-RelianceCorporateITParkLimited/AutomationFrameWork/automationfrmwrk//drivers//chromedriver
+20:03:54.553 INFO  utilities.Util - Waiting 0.02 seconds :: Clicked on ::Login
+20:03:55.766 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (beca48aac7994ada424e0a5683a47dc2)] -> id: email]Usernamefieldwith data:: test@email.com
+20:03:56.563 INFO  base.CustomerDriver - SendKeys on element::[[ChromeDriver: chrome on MAC (beca48aac7994ada424e0a5683a47dc2)] -> id: login-password]Passwordfieldwith data:: abcabc
+20:03:57.966 INFO  base.CustomerDriver - Clicked on ::LoginButton
+20:03:58.521 INFO  base.CheckPoint - Clearing the HashMap
+20:04:08.043 INFO  utilities.Util - Waiting 0.01 seconds :: Clicked on ::All Courses Link
+20:04:08.684 INFO  base.CustomerDriver - Clicked on ::searchbar
+20:04:09.038 INFO  base.CustomerDriver - JavaScript sendKeys on element:: [[ChromeDriver: chrome on MAC (beca48aac7994ada424e0a5683a47dc2)] -> id: search] Coursename with data:: rest api
+20:04:09.987 INFO  base.CustomerDriver - Clicked on ::SearchIcon
+20:04:10.016 INFO  base.CustomerDriver - Elements list found with :  xpath=>//div[@class='col-lg-4 col-md-4 col-sm-6 col-xs-12']
+20:04:10.020 INFO  base.CheckPoint - Clearing the HashMap
+20:04:14.367 INFO  utilities.Util - Waiting 0.01 seconds :: Clicked on ::All Courses Link
+20:04:14.853 INFO  base.CustomerDriver - Clicked on ::searchbar
+20:04:14.902 INFO  base.CustomerDriver - JavaScript sendKeys on element:: [[ChromeDriver: chrome on MAC (beca48aac7994ada424e0a5683a47dc2)] -> id: search] Coursename with data:: javascript
+20:04:15.278 INFO  base.CustomerDriver - Clicked on ::SearchIcon
+20:04:15.404 INFO  base.CustomerDriver - Elements list found with :  xpath=>//div[@class='col-lg-4 col-md-4 col-sm-6 col-xs-12']
